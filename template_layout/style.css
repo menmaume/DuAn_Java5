@@ -128,7 +128,7 @@ a:hover {
   padding-bottom: 4em;
 }
 .padding-large {
-  padding-top: 7em;
+  padding-top: 10em;
   padding-bottom: 7em;
 }
 .padding-xlarge {
@@ -606,10 +606,7 @@ h3.cart-title {
 
 /*------------ Offcanvas -------------- */
 
-header{
-  height: 39px;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
-}
+
 
 #header-nav .navbar-toggler:focus {
     box-shadow: none;
@@ -702,7 +699,7 @@ header{
 /* 4. Product
 /*----------------------------------------------*/
 .product-store .product-card .cart-concern {
-    bottom: 75px;
+    top: 260px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -712,7 +709,7 @@ header{
     opacity: 0;
 }
 .product-store .product-card:hover .cart-concern {
-    bottom: 90px;
+  top: 270px;
     opacity: 1;
 }
 .product-card .cart-concern svg {
