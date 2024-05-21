@@ -3,21 +3,15 @@
     background-color: #007bff; /* Màu nền của banner */
     color: #000000; /* Màu chữ của banner */
     position: relative;
-<<<<<<< HEAD
-    height: 550px;
-=======
+
     height: 500px;
->>>>>>> c76f3313d81b5223baded3aca3b852da2de23ab6
+
 }
 
 .banner>.color_banner>img{
     width: 50%;
     right: 20px;
-<<<<<<< HEAD
-    top: 100px;
-=======
     top: 50px;
->>>>>>> c76f3313d81b5223baded3aca3b852da2de23ab6
     position: absolute;
     height: 100%;
 }
@@ -26,26 +20,18 @@
     height: 100%;
 }
 
-<<<<<<< HEAD
 
-
-.title{
-=======
 .banner .title{
->>>>>>> c76f3313d81b5223baded3aca3b852da2de23ab6
     width: 40%;
     /* background-color: red; */
     position: absolute;
     padding: 20px;
     left: 100px;
-<<<<<<< HEAD
-    top: 180px;
-=======
     top: 110px;
 }
 
 header{
     height: 100px;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
->>>>>>> c76f3313d81b5223baded3aca3b852da2de23ab6
+
 }

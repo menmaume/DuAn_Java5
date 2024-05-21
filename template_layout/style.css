@@ -606,15 +606,6 @@ h3.cart-title {
 
 /*------------ Offcanvas -------------- */
 
-<<<<<<< HEAD
-header{
-  height: 39px;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.1);
-}
-=======
-
->>>>>>> c76f3313d81b5223baded3aca3b852da2de23ab6
-
 #header-nav .navbar-toggler:focus {
     box-shadow: none;
 }
