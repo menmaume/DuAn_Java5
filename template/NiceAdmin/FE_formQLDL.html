@@ -529,64 +529,58 @@
                     <div class="card">
                         <div class="card-body">
                             <h5 class="card-title">Dung lượng sản phẩm</h5>
-                            <h5 class="card-title"> </h5>
                             <!-- Horizontal Form -->
                             <form action="save" method="post" enctype="multipart/form-data">
                                 <div class="row mb-3">
-                                    <label for="inputPassword3" class="col-sm-3 col-form-label">Dung Lượng</label>
+                                    <label for="inputPassword3" class="col-sm-3 col-form-label">Dung Lượng :</label>
                                     <div class="col-sm-9">
                                         <div class="row">
-                                            <label class="col-md-2" style="font-size: 12px;">Mã Dung Lượng :</label>
-                                            <div class="col-sm-9">
-                                                <input type="text"  id="inputText">
-                                            </div>
-                                            <label class="col-md-2" style="font-size: 12px;">Dung Lượng :</label>
                                             <div class="col-md-4">
                                                 <div id="inputState" class="d-flex align-items-center">
                                                     <div class="form-check me-3">
-                                                        <input class="form-check-input" type="radio" name="options1" id="option1" value="option1" checked>
+                                                        <input class="form-check-input" type="radio" name="options" id="option1" value="option1" checked>
                                                         <label class="form-check-label" for="option1">
                                                             16GB
                                                         </label>
                                                     </div>
                                             
                                                     <div class="form-check me-3" >
-                                                        <input class="form-check-input" type="radio" name="options2" id="option2" value="option2">
+                                                        <input class="form-check-input" type="radio" name="options" id="option2" value="option2">
                                                         <label class="form-check-label" for="option2">
                                                             32GB
                                                         </label>
                                                     </div>
                                             
                                                     <div class="form-check me-3">
-                                                        <input class="form-check-input" type="radio" name="options3" id="option3" value="option3">
+                                                        <input class="form-check-input" type="radio" name="options" id="option3" value="option3">
                                                         <label class="form-check-label" for="option3">
                                                             64GB
                                                         </label>
                                                     </div>
                                             
                                                     <div class="form-check me-3">
-                                                        <input class="form-check-input" type="radio" name="options4" id="option4" value="option4">
+                                                        <input class="form-check-input" type="radio" name="options" id="option4" value="option4">
                                                         <label class="form-check-label" for="option4">
                                                             128GB
                                                         </label>
                                                     </div>
                                             
                                                     <div class="form-check me-3">
-                                                        <input class="form-check-input" type="radio" name="options5" id="option5" value="option5">
+                                                        <input class="form-check-input" type="radio" name="options" id="option5" value="option5">
                                                         <label class="form-check-label" for="option5">
                                                             256GB
                                                         </label>
                                                     </div>
                                             
                                                     <div class="form-check me-3">
-                                                        <input class="form-check-input" type="radio" name="options6" id="option6" value="option6">
+                                                        <input class="form-check-input" type="radio" name="options" id="option6" value="option6">
                                                         <label class="form-check-label" for="option6">
                                                             512GB
                                                         </label>
                                                     </div>
                                             
                                                     <div class="form-check me-3">
-                                                        <input class="form-check-input" type="radio" name="options7" id="option7" value="option7">
+                                                        <input class="form-check-input" type="radio" name="options" id="option7" value="option7">
                                                         <label class="form-check-label" for="option7">
                                                             1TB
                                                         </label>
@@ -603,10 +597,41 @@
                                     <button type="reset" class="btn btn-secondary">Reset</button>
                                 </div>
                             </form><!-- End Horizontal Form -->
-
                         </div>
                     </div>
-
+                    <div class="card">
+                        <div class="card-body">
+                          <h5 class="card-title">Dung Lượng Sản Phẩm</h5>
+            
+                          <!-- Table with stripped rows -->
+                          <table class="table datatable">
+                            <thead>
+                              <tr>
+                                <th>
+                                  <b>M</b>ã Dung Lượng
+                                </th>
+                                <th>Dung Lượng</th>
+                              </tr>
+                            </thead>
+                            <tbody>
+                              <tr>
+                                <td>1</td>
+                                <td>16GB</td>
+                              </tr>
+                              <tr>
+                                <td>2</td>
+                                <td>32GB</td>
+                              </tr>
+                              <tr>
+                                <td>${ma}</td>
+                                <td>${dl}</td>
+                              </tr>
+                            </tbody>
+                          </table>
+                          <!-- End Table with stripped rows -->
+            
+                        </div>
+                      </div>
 
                 </div>
             </div>
