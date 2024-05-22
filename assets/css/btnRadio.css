@@ -1,0 +1,15 @@
+input[type="radio"] {
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Cài đặt cho nhãn (label) */
+label {
+    margin-bottom: 5px;
+    cursor: pointer;
+}
+
+/* Cài đặt cho radio khi được chọn */
+input[type="radio"]:checked+label {
+    font-weight: bold;
+}
