@@ -13,7 +13,6 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
     <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="stylesheet" href="css/layout.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -133,10 +132,10 @@
     
     <header id="header">
       <div class="site-header  position-fixed text-black bg-light">
-        <nav id="header-nav" class="navbar navbar-expand-lg px-3">
+        <nav id="header-nav" class="navbar navbar-expand-lg px-4 py-4">
           <div class="container-fluid">
-            <a class="navbar-brand" href="layout.html">
-              <img src="images/2.png" class="logo">
+            <a class="navbar-brand" href="layout.html" >
+              <img src="images/TheLiem(2).png" class="logo">
             </a>
             <button class="navbar-toggler d-flex d-lg-none order-3 p-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#bdNavbar" aria-controls="bdNavbar" aria-expanded="false" aria-label="Toggle navigation">
               <svg class="navbar-icon">
@@ -195,18 +194,37 @@
                             </svg>
                           </a>
                         </li>
-                        <li class="pe-3">
-                          <a href="#">
+                        <li class="pe-3 dropdown position-relative">
+                          <a href="#" class="" data-bs-toggle="dropdown" aria-expanded="false">
                             <svg class="user">
                               <use xlink:href="#user"></use>
                             </svg>
                           </a>
+                          <ul class="dropdown-menu ">
+                            <li>
+                              <a href="" class="dropdown-item">Về chúng tôi</a>
+                            </li>
+                            <li>
+                              <a href="" class="dropdown-item">Bài viết</a>
+                            </li>
+                            <li>
+                              <a href="" class="dropdown-item">Cửa hàng</a>
+                            </li>
+                            <li>
+                              <a href="" class="dropdown-item">Giỏ hàng</a>
+                            </li>
+                            <li>
+                            <li>
+                              <a href="" class="dropdown-item">Liên hệ</a>
+                            </li>
+                          </ul>
                         </li>
                         <li>
-                          <a href="">
+                          <a class="nav-icon position-relative text-decoration-none"  href="">
                             <svg class="cart">
                               <use xlink:href="#cart"></use>
                             </svg>
+                            <span class="position-absolute top-0 left-100 translate-middle badge rounded-pill bg-red text-light">7</span>
                           </a>
                         </li>
                       </ul>
