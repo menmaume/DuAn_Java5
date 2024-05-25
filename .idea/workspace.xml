@@ -6,8 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c323c3bc-3376-4765-8414-bf6e44fb4fed" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/NiceAdmin/FE_formCTSP.html" beforeDir="false" afterPath="$PROJECT_DIR$/template/NiceAdmin/FE_formCTSP.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/template/NiceAdmin/assets/css/mau.css" beforeDir="false" afterPath="$PROJECT_DIR$/template/NiceAdmin/assets/css/mau.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +67,7 @@
       <option name="presentableId" value="Default" />
       <updated>1716436281379</updated>
       <workItem from="1716436282704" duration="18000" />
-      <workItem from="1716514003472" duration="3807000" />
+      <workItem from="1716514003472" duration="5627000" />
     </task>
     <servers />
   </component>
